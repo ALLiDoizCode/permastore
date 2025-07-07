@@ -1,5 +1,5 @@
 import { connect, createDataItemSigner } from "@permaweb/aoconnect";
-import { JWKInterface } from "arweave/node/lib/wallet.js";
+import type { JWKInterface } from "arweave/node/lib/wallet.js";
 
 import {
   AOS_MODULE,
